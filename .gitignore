@@ -1,0 +1,25 @@
+# Terraform working dir
+.terraform/
+
+# Terraform state (contains resource details; can include sensitive data)
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Terraform plans
+*.tfplan
+plan.tfplan
+
+# Terraform variables (often includes secrets)
+terraform.tfvars
+*.tfvars
+
+# Secrets
+.env
+*.pem
+*.key
+
+# OS / logs
+.DS_Store
+*.log
